@@ -1,0 +1,39 @@
+# using functions to print days
+
+ONES = [1,11]
+TWOS = [2,22]
+THREES = [3, 33]
+def print_day(day_number):
+    """
+    def get_started():
+        print("I'm proving the program works")
+        return
+"""
+#    get_started()
+    """
+    if day_number == 1 or day_number == 21:
+        print(str(day_number) + "st")
+    elif day_number == 2 or day_number == 22:
+        print(str(day_number) + "nd")
+    elif day_number == 3 or day_number == 23:
+        print(str(day_number) + "rd")
+    else:
+        print(str(day_number) + "th")
+    return
+"""
+    if day_number in ONES:
+        print(str(day_number) + "st")
+    elif day_number in TWOS:
+        print(str(day_number) + "nd")
+    elif day_number in THREES:
+        print(str(day_number) + "rd")
+    else:
+        print(str(day_number)+"th")
+
+
+if __name__ == "__main__":
+
+
+
+    date = int(input("Enter the day in September"))
+    print_day(date)
