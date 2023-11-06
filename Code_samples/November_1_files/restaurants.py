@@ -24,6 +24,6 @@ class Fast_Food(Restaurant):
 if __name__ == "__main__":
     my_chow = Restaurant("My_Chow","Fast_Food","$$",["B","L"])
     my_chow.specials()
-    print(my_chow)
+    print(my_chow.name,'\n',my_chow.cuisine,'\n',my_chow.price,'\n',my_chow.menu)
     Wendys = Fast_Food("Wendys", "Burgers", "$",["B","L","D"])
     print(Wendys.name)
